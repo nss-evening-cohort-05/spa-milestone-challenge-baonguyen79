@@ -1,0 +1,53 @@
+{
+  "cars": [
+    {
+      "make": "Nissan",
+      "model": "Rogue",
+      "year": "2006",
+      "price": "8,999",
+      "picture": "./images/2006Rogue.jpg",
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    },
+    {
+      "make": "Hyundai",
+      "model": "Sonata",
+      "year": "2013",
+      "price": "9,900",
+      "picture": "./images/2013sonata.jpg",
+      "description": "Has brand new battery, all power options , must see !!!"
+    },
+    {
+      "make": "Honda",
+      "model": "Fit",
+      "year": "2011",
+      "price": "5,300",
+      "picture": "./images/2011Fit.jpg",
+      "description": "Up for sale 2011 Honda Fit sport automatic.Runs and drives great with out any problem "
+    },
+    {
+      "make": "Chevrolet",
+      "model": "Corvette  2dr Stingray Coupe w/3LT",
+      "year": "2016",
+      "price": "48,000",
+      "picture": "./images/2007titan.jpg",
+      "description": " 2dr Stingray Coupe w/3LT ,Blade Silver Metallic , Interior: Jet Black "
+    },
+    {
+      "make": "Honda",
+      "model": "Fit",
+      "year": "2011",
+      "price": "5,300",
+      "picture": "./images/2007titan.jpg",
+      "description": "Up for sale 2011 Honda Fit sport automatic.Runs and drives great with out any problem "
+    },
+    {
+      "make": "Honda",
+      "model": "Civic LX",
+      "year": "2015",
+      "price": "15,998",
+      "picture": "./images/2013Civic.jpg",
+      "description": "Runs and drive great Cold AC power everything."
+    }
+
+  ]
+}
