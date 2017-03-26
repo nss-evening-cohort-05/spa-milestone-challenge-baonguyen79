@@ -1,32 +1,35 @@
+// **********************************************
+//  This function to add classlist myStyle for 
+// changing style when select
+// **********************************************
 var CarLot = (function (oldCarlot) {
 	var carSelect = "";
 	oldCarlot.selectDom = function(e){
-		// console.log(e , e.target.parentNode.className);
 		var myStyle = document.getElementsByClassName("myStyle");
 		var	domSelect = e.target.parentNode; 
-		if (myStyle.length > 0){
+		if (myStyle.length > 0){								//remove all myStyle
 			for (var i = 0;i<myStyle.length; i++){
 			myStyle[i].classList.remove("myStyle");
 			}
 		}
-		if (domSelect.className == "thumbnail"){
+		if (domSelect.className == "thumbnail"){				//add myStyle to selected element	
 			domSelect.classList.add("myStyle");
-			// console.log("--" , domSelect)
-			var inputText = document.getElementById("textBox"); 
+			var inputText = document.getElementById("textBox"); //to focus and clear text box
 			inputText.value = "";
 			inputText.focus();
-			carSelect = domSelect;
+			carSelect = domSelect;								//save selected element pointer
 		}
 		
 	}
 
+// ***************************************************
+// This function to populate the selected description
+// from text input
+// ***************************************************
 	oldCarlot.getText = function(){
-		var inText = document.getElementById("textBox");
-		// carSelect.childNodes[1].innerHTML = inText.value;
-		// var myStyle = document.getElementsByClassName("myStyle");
-		var carDescription = carSelect.getElementsByTagName("P");
-		carDescription[0].innerHTML = inText.value;
-		// console.log ("---" , carDescription[0].innerHTML, inText.value);
+		var inText = document.getElementById("textBox");			//get text from textbox
+		var carDescription = carSelect.getElementsByTagName("P");	//get selected car element
+		carDescription[0].innerHTML = inText.value;					//update selected element description
 
 		}
 	

@@ -11,7 +11,6 @@ function populatePage (inventory) {
 	var carInventory = inventory[0];
 	var carDom = "";
 	var	carList = document.getElementById ("car-list");
-	// console.log(carList);
   // Loop over the inventory and populate the page
   for (var i = 0; i<carInventory.cars.length; i++){
 

@@ -6,8 +6,8 @@
 var CarLot = (function (oldCarlot) {
 
 	oldCarlot.activateEvents = function(){
-		window.addEventListener("click" , CarLot.selectDom);
-		document.getElementById("textBox").addEventListener("keyup", CarLot.getText); 	
+		window.addEventListener("click" , CarLot.selectDom);		//add click event listener
+		document.getElementById("textBox").addEventListener("keyup", CarLot.getText); //Add keyup listener for text box	
 	}
 
 
