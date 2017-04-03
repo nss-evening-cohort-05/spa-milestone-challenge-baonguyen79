@@ -1,0 +1,23 @@
+/*selected style*/
+.myStyle{
+	border-width: 15px;
+	background-color: #66f;
+}
+
+/*give space between nav bar and car elements*/
+#nav-bar{
+	padding-bottom:  15px;
+}
+
+.navbar-brand {
+	font-weight: bolder;
+}
+
+h4,h5{
+	font-weight: bold;
+}
+
+p {
+	font-size: 15px;
+}
+
